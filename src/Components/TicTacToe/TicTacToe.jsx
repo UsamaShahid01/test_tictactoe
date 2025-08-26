@@ -76,6 +76,8 @@ const TicTacToe = () => {
         {board.map((_, index) => renderCell(index))}
       </div>
       <button className="reset" onClick={resetGame}>Reset</button>
+      <button className="reset" onClick={resetGame}>Reset</button>
+
     </div>
   );
 };
